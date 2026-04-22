@@ -33,7 +33,7 @@ struct PageMyPortfolio: View {
                         }
                     }
                     .listRowSeparator(.hidden)
-                    .frame(height: 300)
+                    .frame(height: 200)
                     VStack(alignment: .leading, spacing: 12) {
                         HStack{
                             Text("Day Gains").opacity(0.6)
@@ -94,13 +94,18 @@ struct PageMyPortfolio: View {
 
                 }
                 .sharedBackgroundVisibility(.hidden)
+                ToolbarItem(placement: .topBarTrailing) {
+                    HStack {
+                        Button("", systemImage: "plus") {
+
+                        }
+                    }
+                }
             }
             
             .listStyle(.plain)
 
         }
-        
-    
         
     }
 }

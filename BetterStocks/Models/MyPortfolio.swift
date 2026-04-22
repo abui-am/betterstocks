@@ -91,6 +91,13 @@ var mockHoldings: [Holding] = [
         shares: 10
     ),
     Holding(
+        symbol: "MSFT",
+        averagePurchasePrice: 250,
+        currentPrice: 260,
+        name: "Microsoft Corporation",
+        shares: 8
+    ),
+    Holding(
         symbol: "TSLA",
         averagePurchasePrice: 700,
         currentPrice: 760,
